@@ -1,0 +1,5 @@
+pycryptodome
+numpy
+pandas
+requests
+Unidecode
