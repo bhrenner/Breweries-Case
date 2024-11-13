@@ -1,7 +1,0 @@
-[2024-11-13T10:18:12.963+0000] {processor.py:161} INFO - Started process (PID=3192) to work on /opt/airflow/dags/TransformToSilver.py
-[2024-11-13T10:18:12.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/TransformToSilver.py for tasks to queue
-[2024-11-13T10:18:12.972+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:18:12.971+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/TransformToSilver.py
-[2024-11-13T10:18:13.997+0000] {processor.py:840} INFO - DAG(s) 'TransformToSilver' retrieved from /opt/airflow/dags/TransformToSilver.py
-[2024-11-13T10:18:15.596+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:18:15.594+0000] {dag.py:3096} INFO - Sync 1 DAGs
-[2024-11-13T10:18:15.696+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:18:15.695+0000] {dag.py:3954} INFO - Setting next_dagrun for TransformToSilver to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
-[2024-11-13T10:18:15.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/TransformToSilver.py took 2.840 seconds

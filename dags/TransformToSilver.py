@@ -20,7 +20,7 @@ def json_to_dataframe(ti):
 
     # Check if the file path exists
     if file_path and os.path.exists(file_path):
-        dfBreweries = pd.read_json(file_path)
+        dfBreweries = pd.read_json(file_path, lines=True)
 
         # Clean the DataFrame columns
         dfBreweries = AdditionalFunctions.clean_columns(dfBreweries)
@@ -48,14 +48,14 @@ def json_to_dataframe(ti):
         # Process the DataFrame date
         df = AdditionalFunctions.process_date(df)
 
-        partition_colums = ['country']#, 'state']
+        partition_colums = ['country']  # , 'state']
 
         for col in partition_colums:
             df[col] = df[col].apply(AdditionalFunctions.clean_partitions)
 
         df['state'] = df['state'].apply(AdditionalFunctions.name_repair)
         df['city'] = df['city'].apply(AdditionalFunctions.name_repair)
-        
+
         # Print the final DataFrame for debugging
         print("\nFinal DataFrame:")
         print(df)
