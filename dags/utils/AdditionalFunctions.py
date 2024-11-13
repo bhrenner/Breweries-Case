@@ -1,9 +1,7 @@
-from datetime import datetime, timedelta
-import re
+import os
 import unicodedata
-import smtplib
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import padding
@@ -150,3 +148,4 @@ def email_status(context):
 
     except Exception as e:
         print(f"Failed to send email: {e}")
+
