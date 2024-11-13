@@ -1,0 +1,210 @@
+[2024-11-13T09:58:25.325+0000] {processor.py:161} INFO - Started process (PID=2693) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T09:58:25.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T09:58:25.554+0000] {logging_mixin.py:188} INFO - [2024-11-13T09:58:25.510+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T09:58:37.849+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T09:58:40.165+0000] {logging_mixin.py:188} INFO - [2024-11-13T09:58:40.162+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T09:58:41.050+0000] {logging_mixin.py:188} INFO - [2024-11-13T09:58:41.049+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T09:58:41.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 16.399 seconds
+[2024-11-13T09:59:12.129+0000] {processor.py:161} INFO - Started process (PID=2712) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T09:59:12.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T09:59:12.137+0000] {logging_mixin.py:188} INFO - [2024-11-13T09:59:12.136+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T09:59:13.385+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T09:59:13.849+0000] {logging_mixin.py:188} INFO - [2024-11-13T09:59:13.848+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T09:59:13.924+0000] {logging_mixin.py:188} INFO - [2024-11-13T09:59:13.923+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T09:59:13.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.881 seconds
+[2024-11-13T09:59:44.683+0000] {processor.py:161} INFO - Started process (PID=2725) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T09:59:44.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T09:59:44.691+0000] {logging_mixin.py:188} INFO - [2024-11-13T09:59:44.690+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T09:59:45.824+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T09:59:46.083+0000] {logging_mixin.py:188} INFO - [2024-11-13T09:59:46.082+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T09:59:46.151+0000] {logging_mixin.py:188} INFO - [2024-11-13T09:59:46.151+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T09:59:50.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 6.187 seconds
+[2024-11-13T10:00:21.753+0000] {processor.py:161} INFO - Started process (PID=2738) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:00:21.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:00:21.772+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:00:21.767+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:00:23.440+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:00:23.769+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:00:23.767+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:00:23.872+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:00:23.871+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:00:23.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 2.221 seconds
+[2024-11-13T10:00:54.443+0000] {processor.py:161} INFO - Started process (PID=2751) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:00:54.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:00:54.451+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:00:54.450+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:00:55.899+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:00:56.207+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:00:56.206+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:00:56.276+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:00:56.275+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:00:56.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.909 seconds
+[2024-11-13T10:01:27.220+0000] {processor.py:161} INFO - Started process (PID=2764) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:01:27.223+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:01:27.230+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:01:27.229+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:01:28.367+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:01:28.679+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:01:28.678+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:01:28.737+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:01:28.736+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:01:28.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.608 seconds
+[2024-11-13T10:01:59.316+0000] {processor.py:161} INFO - Started process (PID=2779) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:01:59.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:01:59.325+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:01:59.324+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:02:00.250+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:02:00.533+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:02:00.532+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:02:01.065+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:02:01.064+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:02:01.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.865 seconds
+[2024-11-13T10:02:31.869+0000] {processor.py:161} INFO - Started process (PID=2791) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:02:31.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:02:31.878+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:02:31.877+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:02:32.915+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:02:33.227+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:02:33.226+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:02:33.282+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:02:33.280+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:02:33.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.526 seconds
+[2024-11-13T10:03:03.601+0000] {processor.py:161} INFO - Started process (PID=2804) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:03:03.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:03:03.610+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:03:03.609+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:03:04.747+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:03:05.083+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:03:05.082+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:03:05.139+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:03:05.138+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:03:05.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.608 seconds
+[2024-11-13T10:03:35.526+0000] {processor.py:161} INFO - Started process (PID=2817) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:03:35.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:03:35.536+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:03:35.535+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:03:36.531+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:03:36.899+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:03:36.898+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:03:36.978+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:03:36.977+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:03:37.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.518 seconds
+[2024-11-13T10:04:07.832+0000] {processor.py:161} INFO - Started process (PID=2829) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:04:07.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:04:07.839+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:04:07.838+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:04:08.677+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:04:08.930+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:04:08.929+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:04:08.985+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:04:08.985+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:04:09.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.466 seconds
+[2024-11-13T10:04:39.485+0000] {processor.py:161} INFO - Started process (PID=2848) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:04:39.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:04:39.494+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:04:39.493+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:04:40.540+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:04:40.822+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:04:40.821+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:04:41.321+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:04:41.320+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:04:41.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.943 seconds
+[2024-11-13T10:05:12.257+0000] {processor.py:161} INFO - Started process (PID=2861) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:05:12.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:05:12.266+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:05:12.265+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:05:13.222+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:05:13.556+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:05:13.555+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:05:13.609+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:05:13.608+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:05:13.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.424 seconds
+[2024-11-13T10:05:43.915+0000] {processor.py:161} INFO - Started process (PID=2874) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:05:43.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:05:43.924+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:05:43.923+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:05:44.938+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:05:45.252+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:05:45.252+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:05:45.309+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:05:45.309+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:05:45.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.461 seconds
+[2024-11-13T10:06:15.487+0000] {processor.py:161} INFO - Started process (PID=2887) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:06:15.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:06:15.495+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:06:15.494+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:06:16.361+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:06:16.592+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:06:16.591+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:06:16.640+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:06:16.640+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:06:16.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.460 seconds
+[2024-11-13T10:06:47.750+0000] {processor.py:161} INFO - Started process (PID=2900) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:06:47.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:06:47.757+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:06:47.756+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:06:48.601+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:06:48.909+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:06:48.908+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:06:49.240+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:06:49.239+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:06:49.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.551 seconds
+[2024-11-13T10:07:20.010+0000] {processor.py:161} INFO - Started process (PID=2913) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:07:20.014+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:07:20.020+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:07:20.019+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:07:21.547+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:07:22.168+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:07:22.166+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:07:22.303+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:07:22.302+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:07:22.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 2.415 seconds
+[2024-11-13T10:07:53.400+0000] {processor.py:161} INFO - Started process (PID=2926) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:07:53.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:07:53.407+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:07:53.407+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:07:54.401+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:07:54.721+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:07:54.719+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:07:54.779+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:07:54.779+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:07:54.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.450 seconds
+[2024-11-13T10:08:24.999+0000] {processor.py:161} INFO - Started process (PID=2940) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:08:25.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:08:25.007+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:08:25.006+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:08:25.955+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:08:26.219+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:08:26.218+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:08:26.623+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:08:26.622+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:08:26.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.713 seconds
+[2024-11-13T10:08:57.648+0000] {processor.py:161} INFO - Started process (PID=2953) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:08:57.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:08:57.656+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:08:57.655+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:08:58.502+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:08:58.756+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:08:58.755+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:08:58.805+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:08:58.804+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:08:58.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.238 seconds
+[2024-11-13T10:09:29.624+0000] {processor.py:161} INFO - Started process (PID=2966) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:09:29.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:09:29.632+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:09:29.631+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:09:30.564+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:09:30.840+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:09:30.839+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:09:30.910+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:09:30.909+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:09:30.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.354 seconds
+[2024-11-13T10:10:01.836+0000] {processor.py:161} INFO - Started process (PID=2979) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:10:01.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:10:01.846+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:10:01.845+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:10:02.906+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:10:03.171+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:10:03.170+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:10:03.229+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:10:03.229+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:10:03.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.480 seconds
+[2024-11-13T10:10:33.616+0000] {processor.py:161} INFO - Started process (PID=2993) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:10:33.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:10:33.623+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:10:33.622+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:10:34.699+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:10:34.947+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:10:34.946+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:10:35.230+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:10:35.229+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:10:35.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.676 seconds
+[2024-11-13T10:11:05.483+0000] {processor.py:161} INFO - Started process (PID=3006) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:11:05.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:11:05.492+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:11:05.491+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:11:06.516+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:11:07.071+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:11:07.070+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:11:07.121+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:11:07.121+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:11:07.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.721 seconds
+[2024-11-13T10:11:38.022+0000] {processor.py:161} INFO - Started process (PID=3019) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:11:38.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:11:38.030+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:11:38.029+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:11:39.047+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:11:39.301+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:11:39.300+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:11:39.357+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:11:39.357+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:11:39.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.406 seconds
+[2024-11-13T10:12:09.651+0000] {processor.py:161} INFO - Started process (PID=3033) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:12:09.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:12:09.659+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:12:09.658+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:12:10.501+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:12:10.778+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:12:10.777+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:12:10.845+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:12:10.845+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:12:10.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.262 seconds
+[2024-11-13T10:12:41.554+0000] {processor.py:161} INFO - Started process (PID=3053) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:12:41.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:12:41.569+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:12:41.567+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:12:42.666+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:12:42.997+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:12:42.994+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:12:43.343+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:12:43.343+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:12:43.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.899 seconds
+[2024-11-13T10:13:14.340+0000] {processor.py:161} INFO - Started process (PID=3066) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:13:14.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:13:14.347+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:13:14.346+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:13:15.301+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:13:15.825+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:13:15.825+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:13:15.867+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:13:15.867+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:13:15.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.585 seconds
+[2024-11-13T10:13:46.883+0000] {processor.py:161} INFO - Started process (PID=3079) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:13:46.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:13:46.890+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:13:46.889+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:13:47.697+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:13:47.938+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:13:47.937+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:13:47.993+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:13:47.992+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:13:48.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 1.169 seconds
+[2024-11-13T10:14:19.064+0000] {processor.py:161} INFO - Started process (PID=3092) to work on /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:14:19.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/AggregationToGold.py for tasks to queue
+[2024-11-13T10:14:19.075+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:14:19.074+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:14:22.108+0000] {processor.py:840} INFO - DAG(s) 'AggBreweriesToGold' retrieved from /opt/airflow/dags/AggregationToGold.py
+[2024-11-13T10:14:25.067+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:14:25.059+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-13T10:14:25.210+0000] {logging_mixin.py:188} INFO - [2024-11-13T10:14:25.209+0000] {dag.py:3954} INFO - Setting next_dagrun for AggBreweriesToGold to 2024-11-14 00:00:00+00:00, run_after=2024-11-15 00:00:00+00:00
+[2024-11-13T10:14:26.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/AggregationToGold.py took 7.473 seconds

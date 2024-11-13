@@ -20,21 +20,6 @@ def json_to_dataframe(ti):
 
     # Check if the file path exists
     if file_path and os.path.exists(file_path):
-        # Open and load the JSON data from the file
-        # with open(file_path, 'r') as f:
-        #    data = json.load(f)
-
-        # Print the JSON data for debugging
-        # print(f"JSON Data: {data}")
-
-        # Extract the list of dictionaries from the JSON data
-        # lista_dicionarios = [v['0'] for k, v in data.items()]
-        # print(f"Dictionary List: {lista_dicionarios}")
-
-        # Convert the list of dictionaries into a pandas DataFrame
-        # df_list = pd.DataFrame(lista_dicionarios)
-        # print(f"DataFrame List: {df_list}")
-
         dfBreweries = pd.read_json(file_path)
 
         # Clean the DataFrame columns
@@ -70,6 +55,7 @@ def json_to_dataframe(ti):
 
         df['state'] = df['state'].apply(AdditionalFunctions.name_repair)
         df['city'] = df['city'].apply(AdditionalFunctions.name_repair)
+        
         # Print the final DataFrame for debugging
         print("\nFinal DataFrame:")
         print(df)

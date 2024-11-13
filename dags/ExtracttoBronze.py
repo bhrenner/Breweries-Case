@@ -11,6 +11,8 @@ from utils import AdditionalFunctions
 
 api_endpoint = Variable.get("endpoint_api")
 
+# Request Api Content
+
 
 def get_api_content(api_endpoint):
     pg = 1
@@ -33,7 +35,7 @@ def get_api_content(api_endpoint):
 
 def processing_api_json(ti):
 
-    df = get_api_content(api_endpoint)
+    d = get_api_content(api_endpoint)
 
     if df.empty:
         raise ValueError('API retornou dados vazios')
@@ -46,7 +48,7 @@ def processing_api_json(ti):
     AdditionalFunctions.ensure_directory_exists(file_path)
 
     # Write DataFrame JSON
-    df.to_json(file_path, orient='records')  # , lines=True)
+    df.to_json(file_path, orient='records', lines=True)
 
     # Set Airflow Variable
     Variable.set("path_bronze", file_path)
@@ -57,10 +59,10 @@ def processing_api_json(ti):
 default_args = {
     'owner': 'airflow',
     'start_date': datetime.now(),
-    'retries': 3,
-    'retry_delay': timedelta(seconds=5)
-    #'on_failure_callback': AdditionalFunctions.email_status,
-    #'on_retry_callback': AdditionalFunctions.email_status,
+    'retries': 2,
+    'retry_delay': timedelta(seconds=5),
+    'on_failure_callback': AdditionalFunctions.email_status,
+    'on_retry_callback': AdditionalFunctions.email_status
 }
 
 with DAG(

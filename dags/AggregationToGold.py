@@ -13,7 +13,6 @@ import os
 scripts_dir = os.path.join(os.path.dirname(__file__), '..', 'dags')
 sys.path.append(scripts_dir)
 
-
 def agg_by_loc_type(ti):
     # Retrieve the file path from the Airflow variable
     file_path = Variable.get("path_silver")
@@ -26,10 +25,10 @@ def agg_by_loc_type(ti):
         # Get the current date
         dt = datetime.now()
 
-        # Lista para armazenar os DataFrames agregados de cada país
+        # Country list agregation
         dfs = []
 
-        # Carregar o dataset particionado e obter a lista de valores únicos na coluna 'pais'
+        # Load Country partitions
         data = pq.ParquetDataset(file_path, use_legacy_dataset=False)
 
         print(data.fragments)
@@ -44,10 +43,10 @@ def agg_by_loc_type(ti):
                 .count().reset_index(name='number_of_breweries')
             )
 
-            # Adicionar o DataFrame agregado à lista
+            # Add DataFrame to Country List
             dfs.append(df_agg)
 
-        # Concatenar todos os DataFrames agregados em um único DataFrame final
+        # Concat All DataFrames
         dfFinal = pd.concat(dfs, ignore_index=True)
 
         # Process the date in the aggregated DataFrame
@@ -57,14 +56,14 @@ def agg_by_loc_type(ti):
         path = "datalake/gold/BreweriesbyLocType"
 
         # Ensure the directory exists
-        AdditionalFunctions.ensure_directory_exists(file_path)
+        AdditionalFunctions.ensure_directory_exists(path)
 
         # Save the aggregated DataFrame as a parquet file with partitioning
         dfFinal.to_parquet(path, partition_cols=[
             'process_date'], compression='gzip')
 
         # Set the Airflow variable with the path of the parquet file
-        # Variable.set("path_gold", file_path)
+        Variable.set("path_gold", path)
 
     else:
         # Raise an error if the file is not found
