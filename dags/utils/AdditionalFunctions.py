@@ -1,17 +1,32 @@
-import os
+from datetime import datetime, timedelta
+import re
 import unicodedata
+import smtplib
 import re
 from datetime import datetime
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import padding
+from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from airflow.utils.email import send_email
 from email.mime.text import MIMEText
 import smtplib
 
+
+def clean_columns(df):
+    df.columns = (
+        df.columns
+        # Convert column names to lowercase
+        .str.lower()
+         # Replace spaces with underscores
+        .str.replace(' ', '_') 
+        # Remove leading and trailing whitespace
+        .str.strip()         
+    )
+    return df
+
 # Function to clean and format a string
-
-
 def clean_partitions(s):
     if isinstance(s, str):
         s = s.strip()  # Remove leading/trailing spaces
@@ -26,8 +41,6 @@ def clean_partitions(s):
     return s
 
 # Function to ensure the existence of a directory
-
-
 def ensure_directory_exists(file_path):
     directory = os.path.dirname(file_path)
     if not os.path.exists(directory):
@@ -35,8 +48,6 @@ def ensure_directory_exists(file_path):
         os.makedirs(directory)
 
 # Function to add a processing date column to a DataFrame
-
-
 def process_date(df):
     # Get the current date in 'YYYYMMDD' format
     format_dt = datetime.now().strftime('%Y%m%d')
@@ -45,8 +56,6 @@ def process_date(df):
     return df
 
 # Function to repair certain string field values
-
-
 def name_repair(field):
     ajustes = {
         'Krnten': 'Karnten',
@@ -72,8 +81,7 @@ def descript_pass():
         with open(file_path, "rb") as f:
             iv = f.read(16)
             ciphertext = f.read()
-            print(ciphertext)
-
+            
         if len(ciphertext) == 0:
             raise ValueError("Encryption file is empty or corrupted.")
 
@@ -86,8 +94,7 @@ def descript_pass():
         senha_padded = decryptor.update(ciphertext) + decryptor.finalize()
         unpadder = padding.PKCS7(128).unpadder()
         senha = unpadder.update(senha_padded) + unpadder.finalize()
-        print(f"Senha final (sem padding): {senha}")
-
+       
         # Return the decrypted password as a string
         return senha.decode('utf-8')
     except ValueError as e:
@@ -120,7 +127,6 @@ def email_status(context):
 
     # Get the decrypted password
     password = descript_pass()
-    print(password)
 
     # Create the email message
     msg = MIMEMultipart()
@@ -144,5 +150,3 @@ def email_status(context):
 
     except Exception as e:
         print(f"Failed to send email: {e}")
-        # Send a failure email if the primary email fails
-        # airflow.utils.email.send_email('breweriescase@hotmail.com', 'Airflow', 'This is airflow status success')
