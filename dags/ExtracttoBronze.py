@@ -35,7 +35,7 @@ def get_api_content(api_endpoint):
 
 def processing_api_json(ti):
 
-    d = get_api_content(api_endpoint)
+    df = get_api_content(api_endpoint)
 
     if df.empty:
         raise ValueError('API retornou dados vazios')
